@@ -23,16 +23,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@meteor-it/all@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@meteor-it/all@workspace:."
-  dependencies:
-    "@types/node": "npm:^18.11.10"
-    "@types/webpack-env": "npm:^1.18.0"
-    typescript: "npm:^4.9.3"
-  languageName: unknown
-  linkType: soft
-
 "@meteor-it/fs@workspace:*, @meteor-it/fs@workspace:packages/fs":
   version: 0.0.0-use.local
   resolution: "@meteor-it/fs@workspace:packages/fs"
@@ -111,7 +101,7 @@ __metadata:
     "@meteor-it/utils": "workspace:*"
     "@types/ws": "npm:^8.5.3"
     winston: "npm:3.8.2"
-    ws: "npm:^8.11.0"
+    ws: "npm:^8.17.1"
   languageName: unknown
   linkType: soft
 
@@ -318,6 +308,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"root@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root@workspace:."
+  dependencies:
+    "@types/node": "npm:^18.11.10"
+    "@types/webpack-env": "npm:^1.18.0"
+    typescript: "npm:^4.9.3"
+  languageName: unknown
+  linkType: soft
+
 "safe-buffer@npm:~5.2.0":
   version: 5.2.1
   resolution: "safe-buffer@npm:5.2.1"
@@ -442,17 +442,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ws@npm:^8.11.0":
-  version: 8.11.0
-  resolution: "ws@npm:8.11.0"
+"ws@npm:^8.17.1":
+  version: 8.17.1
+  resolution: "ws@npm:8.17.1"
   peerDependencies:
     bufferutil: ^4.0.1
-    utf-8-validate: ^5.0.2
+    utf-8-validate: ">=5.0.2"
   peerDependenciesMeta:
     bufferutil:
       optional: true
     utf-8-validate:
       optional: true
-  checksum: c573e020b665b724acf6d5500c117f2c117f2b07b7414700a5fe61fd03e850578649f951851afca3d7885ef2ee6ecd83881abb2ebe005defd62aeb657e13a9be
+  checksum: 2b3b8c40e0e9156645a62b1d33ae46330730e8d303996d1cf3b68cc300e742cd44a5b9f3d7b24b9bfdfb19dfec45cc650cd39ec7ba4e36eb7363c1ced8e08f77
   languageName: node
   linkType: hard
