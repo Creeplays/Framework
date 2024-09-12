@@ -23,16 +23,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@meteor-it/all@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "@meteor-it/all@workspace:."
-  dependencies:
-    "@types/node": "npm:^18.11.10"
-    "@types/webpack-env": "npm:^1.18.0"
-    typescript: "npm:^4.9.3"
-  languageName: unknown
-  linkType: soft
-
 "@meteor-it/fs@workspace:*, @meteor-it/fs@workspace:packages/fs":
   version: 0.0.0-use.local
   resolution: "@meteor-it/fs@workspace:packages/fs"
@@ -85,7 +75,7 @@ __metadata:
   resolution: "@meteor-it/router@workspace:packages/router"
   dependencies:
     "@meteor-it/utils": "workspace:*"
-    path-to-regexp: "npm:6.2.1"
+    path-to-regexp: "npm:6.3.0"
   languageName: unknown
   linkType: soft
 
@@ -300,10 +290,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"path-to-regexp@npm:6.2.1":
-  version: 6.2.1
-  resolution: "path-to-regexp@npm:6.2.1"
-  checksum: e88a30cc5671ab10cbe5f2cdb8341bc3f893583e8259f2bbf935a27ce1827509881f22321d96d82d9967a4dacb88c7e777b9f09a656ccf94d33ed2c0a4a66c0e
+"path-to-regexp@npm:6.3.0":
+  version: 6.3.0
+  resolution: "path-to-regexp@npm:6.3.0"
+  checksum: 0593bda6e27d251104b8c928b65a8189e0476daa115fec771dd1941b3540a6bf2f826e14a203a78cdc80c6f7777690232d45f098825d5016bd19220db6142447
   languageName: node
   linkType: hard
 
@@ -317,6 +307,16 @@ __metadata:
   checksum: bda7b24d3910bf0ec4a1df3c540e1b97b1ed3ca49ea0ddc0d2c6bf29d3997251a7244608de1d842555641d1c115d9b3566167fef9225ee6ef147c9e6a539395b
   languageName: node
   linkType: hard
+
+"root@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "root@workspace:."
+  dependencies:
+    "@types/node": "npm:^18.11.10"
+    "@types/webpack-env": "npm:^1.18.0"
+    typescript: "npm:^4.9.3"
+  languageName: unknown
+  linkType: soft
 
 "safe-buffer@npm:~5.2.0":
   version: 5.2.1
